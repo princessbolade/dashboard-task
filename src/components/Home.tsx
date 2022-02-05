@@ -24,8 +24,6 @@ const Home = () => {
     setUsers(selectorUsers);
   }, [selectorUsers]);
 
-  console.log(users);
-
   const marginStyle = { marginTop: "3rem" };
 
   return (

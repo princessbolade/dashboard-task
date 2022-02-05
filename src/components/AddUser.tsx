@@ -14,8 +14,6 @@ const AddUser = () => {
 
   const navigate = useNavigate();
 
-  console.log(users);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
